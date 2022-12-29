@@ -1,0 +1,66 @@
+.gallery{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	
+	.gallery div{
+		width: 48%;
+		padding: 1%;
+	}
+	
+	.gallery img{
+		width: 100%;
+		border-radius: 5px;
+		box-shadow: 0px 0px 0px 2px rgba(0,0,255,0.2);
+	}
+	
+	.overlay{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		background: rgba(0,0,0,0.8);
+		display: none;
+	}
+	
+	.overlay div{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.overlay img{
+		width: 90%;
+		border-radius: 3px;
+		box-shadow: 0px 0px 0px 5px rgba(255,255,255,0.3);
+	}
+	
+	.left, .right, .close{
+		position: absolute;
+		font-size: 3em;
+		color: white;
+		font-weight: bold;
+		background: rgba(0,0,0,0.2);
+		padding: 5px;
+	}
+	
+	.left{
+		left: 20px;
+	}
+	
+	.right{
+		right: 20px;
+	}
+	
+	.close{
+		top: 0;
+		right: 0;
+		color: red;
+		background: white;
+		padding: 5px;
+		position: ;
+	}
